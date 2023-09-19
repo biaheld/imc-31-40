@@ -1,8 +1,8 @@
 .corpo{
-    background-color: deeppink;
+    background-color: rgb(20, 208, 255);
 }
 .titulo{
-    font-size: 50px;color: aliceblue;background: black ;text-align: center;
+    font-size: 50px;color: aliceblue;background: rgb(221, 21, 161) ;text-align: center;
 }
 .texto-imc{
     font-size: 50px;
