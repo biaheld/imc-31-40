@@ -15,15 +15,15 @@
             return peso/(altura**2);
         }
         alert("CLIQUE EM OK PARA COMEÇAR");
-        //Criando variaveis
+//Criando variaveis
         let nome = prompt("Qual seu nome?");
         let peso=prompt(nome + ", qual o seu peso?");
-        let altura=prompt(nome+", qual a sua altura?");
+        let altura=prompt(nome + ", qual a sua altura?");
         let calculo= calcular (peso, altura);
         let texto= ",seu IMC é:";
-        //colocando duas casas decimais 
+//colocando duas casas decimais 
         let imc= calculo.toFixed(2)
-        //formatando texto
+//formatando texto
         document.write(nome.italics()+texto.bold()+imc.fontcolor9("blue"));
     </script>
 <!--termino do Script Java-->
